@@ -1,0 +1,38 @@
+# Simple Python Calculator 🌸
+
+# Take input from user
+n = int(input("Enter first number: "))
+m = int(input("Enter second number: "))
+
+# Addition
+Ans1 = n + m
+print("Addition of", n, "and", m, "is", Ans1)
+
+# Subtraction
+Ans2 = n - m
+print("Subtraction of", n, "and", m, "is", Ans2)
+
+# Multiplication
+Ans3 = n * m
+print("Multiplication of", n, "and", m, "is", Ans3)
+
+# Division
+if m != 0:
+    Ans4 = n / m
+    print("Division of", n, "and", m, "is", Ans4)
+else:
+    print("Division by zero is not allowed!")
+
+# Floor Division
+if m != 0:
+    Ans5 = n // m
+    print("Floor Division of", n, "and", m, "is", Ans5)
+else:
+    print("Floor division by zero is not allowed!")
+
+# Modulus
+if m != 0:
+    Ans6 = n % m
+    print("Modulus of", n, "and", m, "is", Ans6)
+else:
+    print("Modulus by zero is not allowed!")
