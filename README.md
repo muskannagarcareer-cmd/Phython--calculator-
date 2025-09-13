@@ -1,25 +1,41 @@
+# Simple Python Calculator 🌸
 
-# 🌸 Python Calculator 🌸
+# Take input from user
+n = int(input("Enter first number: "))
+m = int(input("Enter second number: "))
 
-A simple **Python calculator** that can perform basic arithmetic operations like addition, subtraction, multiplication, division, floor division, and modulus. Perfect for beginners learning Python! 💻
+# Addition
+Ans1 = n + m
+print("Addition of", n, "and", m, "is", Ans1)
 
-## 💡 Features
+# Subtraction
+Ans2 = n - m
+print("Subtraction of", n, "and", m, "is", Ans2)
 
-- Addition ➕  
-- Subtraction ➖  
-- Multiplication ✖️  
-- Division ➗  
-- Floor Division //  
-- Modulus %  
+# Multiplication
+Ans3 = n * m
+print("Multiplication of", n, "and", m, "is", Ans3)
 
-## 🛠️ Tech Used
+# Division
+if m != 0:
+    Ans4 = n / m
+    print("Division of", n, "and", m, "is", Ans4)
+else:
+    print("Division by zero is not allowed!")
 
-- Python 🐍  
+# Floor Division
+if m != 0:
+    Ans5 = n // m
+    print("Floor Division of", n, "and", m, "is", Ans5)
+else:
+    print("Floor division by zero is not allowed!")
 
-## 🚀 How to Run
+# Modulus
+if m != 0:
+    Ans6 = n % m
+    print("Modulus of", n, "and", m, "is", Ans6)
+else:
+    print("Modulus by zero is not allowed!")
 
-1. Download the file `calculator.py`  
-2. Open it in any Python IDE (like PyCharm, VS Code, or Thonny)  
-3. Run the program:  
-   ```bash
-   python calculator.py
+
+
